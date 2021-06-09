@@ -1,0 +1,109 @@
+{
+    "editor.insertSpaces": true,
+    "editor.tabSize": 2,
+    "editor.detectIndentation": true,
+    "editor.renderWhitespace": "all",
+    "editor.formatOnSave": true,
+    "workbench.editorAssociations": [
+        {
+            "viewType": "jupyter.notebook.ipynb",
+            "filenamePattern": "*.ipynb"
+        }
+    ],
+    "python.languageServer": "Pylance",
+    "python.pythonPath": "C:\\Users\\ridho\\AppData\\Local\\Programs\\Python\\Python39\\python.exe",
+    "git.ignoreWindowsGit27Warning": true,
+    "git.confirmSync": false,
+    "git.autofetch": true,
+    "workbench.colorTheme": "Monokai",
+    "explorer.confirmDelete": false,
+    "editor.rulers": [
+        80,
+        120
+    ],
+    "go.formatTool": "goimports",
+    "go.testFlags": [
+        "-v"
+    ],
+    "go.autocompleteUnimportedPackages": true,
+    "[go]": {
+        "editor.insertSpaces": false,
+        "editor.formatOnSave": true,
+        "editor.codeActionsOnSave": {
+            "source.organizeImports": true
+        },
+        "editor.suggest.snippetsPreventQuickSuggestions": false
+    },
+    "vim.useSystemClipboard": true,
+    "vim.insertModeKeyBindings": [
+        {
+            "before": [
+                "j",
+                "k"
+            ],
+            "after": [
+                "<Esc>"
+            ]
+        },
+    ],
+    "vim.normalModeKeyBindings": [
+        {
+            "before": [
+                "m",
+                "m"
+            ],
+            "after": [
+                ":",
+                "w",
+                "<Enter>"
+            ]
+        },
+        {
+            "before": [
+                "w",
+                "w"
+            ],
+            "after": [
+                ":",
+                "w",
+                "q",
+                "!",
+                "<Enter>"
+            ]
+        },
+        {
+            "before": [
+                "q",
+                "q"
+            ],
+            "after": [
+                ":",
+                "w",
+                "q",
+                "!",
+                "<Enter>"
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "p"
+            ],
+            "commands": [
+                "workbench.action.showCommands",
+            ]
+        }
+    ],
+    "[dart]": {
+        "editor.formatOnSave": true,
+        "editor.formatOnType": true,
+        "editor.rulers": [
+            80
+        ],
+        "editor.selectionHighlight": false,
+        "editor.suggest.snippetsPreventQuickSuggestions": false,
+        "editor.suggestSelection": "first",
+        "editor.tabCompletion": "onlySnippets",
+        "editor.wordBasedSuggestions": false
+    }
+}
