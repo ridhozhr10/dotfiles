@@ -106,4 +106,7 @@ export GOPATH=$HOME/go
 export GOPRIVATE=gitlab.com/nodefluxio/goutils
 export PATH=$GOPATH/bin:$GOROOT/bin:$PATH
 
+alias cdd="cd $HOME/d"
+alias cdp="cd $HOME/p"
+
 source $ZSH_CUSTOM/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
