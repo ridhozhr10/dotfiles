@@ -1,21 +1,17 @@
 {
-    "editor.insertSpaces": true,
-    "editor.tabSize": 2,
+    "editor.tabSize": 8,
     "editor.detectIndentation": true,
     "editor.renderWhitespace": "all",
     "editor.formatOnSave": true,
-    "workbench.editorAssociations": [
-        {
-            "viewType": "jupyter.notebook.ipynb",
-            "filenamePattern": "*.ipynb"
-        }
-    ],
+    "workbench.editorAssociations": {
+        "*.ipynb": "jupyter.notebook.ipynb"
+    },
     "python.languageServer": "Pylance",
     "python.pythonPath": "C:\\Users\\ridho\\AppData\\Local\\Programs\\Python\\Python39\\python.exe",
     "git.ignoreWindowsGit27Warning": true,
     "git.confirmSync": false,
     "git.autofetch": true,
-    "workbench.colorTheme": "Monokai",
+    "workbench.colorTheme": "Godot Adaptive",
     "explorer.confirmDelete": false,
     "editor.rulers": [
         80,
@@ -105,5 +101,12 @@
         "editor.suggestSelection": "first",
         "editor.tabCompletion": "onlySnippets",
         "editor.wordBasedSuggestions": false
-    }
+    },
+    "go.toolsManagement.autoUpdate": true,
+    "editor.cursorStyle": "line",
+    "editor.lineNumbers": "on",
+    "editor.wordSeparators": "/\\()\"':,.;<>~!@#$%^&*|+=[]{}`?-",
+    "editor.wordWrap": "off",
+    "redhat.telemetry.enabled": false,
+    "go.lintTool": "golint"
 }
